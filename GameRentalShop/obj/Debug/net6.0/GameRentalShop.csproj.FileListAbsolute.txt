@@ -1,0 +1,15 @@
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\bin\Debug\net6.0\GameRentalShop.exe
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\bin\Debug\net6.0\GameRentalShop.deps.json
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\bin\Debug\net6.0\GameRentalShop.runtimeconfig.json
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\bin\Debug\net6.0\GameRentalShop.dll
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\bin\Debug\net6.0\GameRentalShop.pdb
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.csproj.AssemblyReference.cache
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.AssemblyInfoInputs.cache
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.AssemblyInfo.cs
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.csproj.CoreCompileInputs.cache
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.dll
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\refint\GameRentalShop.dll
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.pdb
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\GameRentalShop.genruntimeconfig.cache
+C:\Users\thatr\Documents\C#\GameRentalShop\GameRentalShop\obj\Debug\net6.0\ref\GameRentalShop.dll
