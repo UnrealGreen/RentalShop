@@ -13,9 +13,12 @@ namespace GameRentalShop{
             // TODO: Write the Method to print out avaliable movies
             // TODO: Give user the option to check games or movies.
 
+
+            //Welcome User to the rental shop.
+
             Console.WriteLine( "Welcome to Kirby's Game and Movie Rental Shop!" + "\n");
 
-            //Get input from file
+            //Get input from file and create list of Games objects that will be used to store the contents of the file. 
 
             List <Games> gamesList = new List <Games> ();
             string gamePath = @"C:\Users\thatr\Documents\C#\Text Files\RentalShop\Games.txt";
@@ -46,11 +49,51 @@ namespace GameRentalShop{
 
            foreach (Games l in gamesList)
             {
-                l.printData(l);
+                l.printGames(l);
             }
-           
-         
-          
+
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //This is were I print out the movies in stock. 
+
+            
+            Console.WriteLine(" ");
+            Console.WriteLine("These are the Movies we have in stock: ");
+            
+
+            string moviePath = @"C:\Users\thatr\Documents\C#\Text Files\RentalShop\Movies.txt";
+            List<Movies> movieList = new List<Movies>();
+
+
+
+
+            using (StreamReader sr = new StreamReader(moviePath))
+            {
+                //Use the streamreader to read the contents of the file and split the contents into the gameSplit array.
+                string line2;
+
+                while ((line2 = sr.ReadLine()) != null)
+                {
+                    string[] movieSplit = line2.Split(',');
+
+                    //Creating objects
+                    Movies n = new Movies(movieSplit[0], movieSplit[1], movieSplit[2], Convert.ToDouble(movieSplit[3]), bool.Parse(movieSplit[4]), movieSplit[5]);
+         ;
+                    movieList.Add(n);
+
+                }
+
+
+            }
+
+            //Print out contents of the Games List .
+
+            foreach (Movies k in movieList)
+            {
+                k.printMovies(k);
+            }
+            
+
+
 
 
         }

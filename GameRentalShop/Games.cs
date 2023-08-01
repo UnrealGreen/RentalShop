@@ -28,7 +28,7 @@ namespace GameRentalShop
 
         }
 
-        public void printData (Games n)
+        public void printGames (Games n)
         {
             Console.WriteLine(" ");
             Console.WriteLine("Name: " + n.Name);
